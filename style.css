@@ -46,3 +46,10 @@ h1 {
 .red {
     background: red !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .key {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
